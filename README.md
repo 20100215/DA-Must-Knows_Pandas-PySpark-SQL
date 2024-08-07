@@ -16,7 +16,7 @@ You are to provide your solutions to each question in every language/library - *
 1. `employees_json` 
 ``` 
 [
-    {"EmployeeID":1, "Name":"Alice", "Department":"HR", "Salary":60000, "JoiningDate":"2020-01-15", "PerformanceScore":3},
+    {"EmployeeID":1, "Name":"Alice", "Department":"HR", "Salary":60000, "JoiningDate":"2019-01-15", "PerformanceScore":3},
     {"EmployeeID":2, "Name":"Bob", "Department":"IT", "Salary":70000, "JoiningDate":"2019-06-20", "PerformanceScore":4},
     {"EmployeeID":3, "Name":"Charlie", "Department":"IT", "Salary":80000, "JoiningDate":"2018-07-23", "PerformanceScore":2},
     {"EmployeeID":4, "Name":"David", "Department":"HR", "Salary":65000, "JoiningDate":"2020-02-10", "PerformanceScore":5},
@@ -53,7 +53,7 @@ Q7: Calculate the cumulative average of the PerformanceScore column grouped by D
 
 Q8: Rank the employees within each department based on their Salary.
 
-Q9: Filter the employees data to show only employees who have been with the company for more than 2 years.
+Q9: Show the count of employees per department who have been with the company for more than 4 years. Include departments with no such employees. Order the result by descending order of count of employees meeting the criteria.
 
 Q10 (A): Calculate the cumulative total salary dispensed by the company as of the end of every year from 2020 until 2024.
 
