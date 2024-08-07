@@ -55,8 +55,8 @@ Q8: Rank the employees within each department based on their Salary.
 
 Q9: Show the count of employees per department who have been with the company for more than 4 years. Include departments with no such employees. Order the result by descending order of count of employees meeting the criteria.
 
-Q10 (A): Calculate the cumulative total salary dispensed by the company as of the end of every year from 2020 until 2024.
+Q10 (A): Calculate the total salary dispensed by the company each year for the years 2018 until 2024.
 
-Assume that salaries are paid at the end of the year equivalent to the amount indicated in the 'Salary' column if the employee is able to work for that full year, or a fractional amount of the salary depending on the length worked by the employee on his starting year (e.g. Joining date: 2020-12-01 -> Salary * 30 / 365 -> since there are 30 days left till the end of the year).
+Assume that salaries are paid at the end of the year equivalent to the amount indicated in the 'Salary' column if the employee is able to work for that full year, or a fractional amount of the salary (floored) depending on the length worked by the employee on his starting year (e.g. Joining date: 2020-12-01 -> floor(Salary * 30 / 365) -> since there are 30 days left till the end of the year).
 
-Q10 (B): Break down the cumulative totals by department.
+Q10 (B): Break down the totals by department.
