@@ -2,6 +2,8 @@
 
 ### Pandas, SQL, PySpark
 
+![portfolio-18](https://github.com/user-attachments/assets/4a236017-1f3a-41ea-8987-69de2ee89461)
+
 Situation: 
 
 You are given two sets of JSON data (employees info, bonuses info) formatted as a string which holds basic employee information in a company that has several departments, and you are given a series of analytics questions to analyze. 
